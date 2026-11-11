@@ -1,0 +1,13 @@
+# IRONKEY Local Configuration Example
+# Copy this file to src/main/resources/application-local.properties or
+# config/application-local.properties and update with your local MySQL credentials.
+
+db.host=localhost
+db.port=3306
+db.name=ironkey_db
+db.user=your_mysql_username
+db.password=your_mysql_password
+db.driver=com.mysql.cj.jdbc.Driver
+db.useSSL=false
+db.allowPublicKeyRetrieval=true
+db.serverTimezone=UTC
